@@ -1,0 +1,21 @@
+name: axiom-official/simple-math
+version: 0.1.0
+language: python
+description: Performs basic mathematical operations including addition, subtraction, multiplication, and division.
+nodes:
+    - name: Add
+      description: Adds two numbers together and returns the sum
+      input: AddInput
+      output: MathOutput
+    - name: Subtract
+      description: Subtracts the second number from the first and returns the difference
+      input: SubtractInput
+      output: MathOutput
+    - name: Multiply
+      description: Multiplies two numbers together and returns the product
+      input: MultiplyInput
+      output: MathOutput
+    - name: Divide
+      description: Divides the first number by the second and returns the quotient
+      input: DivideInput
+      output: MathOutput

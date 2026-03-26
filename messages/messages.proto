@@ -1,0 +1,32 @@
+syntax = "proto3";
+
+package axiom_official.simple_math;
+
+// Input for adding two numbers together
+message AddInput {
+  double a = 1; // The first number to add
+  double b = 2; // The second number to add
+}
+
+// Output containing the result of a mathematical operation
+message MathOutput {
+  double result = 1; // The calculated result
+}
+
+// Input for subtracting one number from another
+message SubtractInput {
+  double a = 1; // The number to subtract from
+  double b = 2; // The number to subtract
+}
+
+// Input for multiplying two numbers together
+message MultiplyInput {
+  double a = 1; // The first number to multiply
+  double b = 2; // The second number to multiply
+}
+
+// Input for dividing one number by another
+message DivideInput {
+  double a = 1; // The dividend (number to be divided)
+  double b = 2; // The divisor (number to divide by)
+}
